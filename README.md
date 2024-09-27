@@ -1,5 +1,7 @@
 # Postgres-backup Ansible role
 
+⚠ **WARNING**: this role is now maintained in [mother-of-all-self-hosting/ansible-role-postgres-backup](https://github.com/mother-of-all-self-hosting/ansible-role-postgres-backup).
+
 This is an [Ansible](https://www.ansible.com/) role which sets up [prodrigestivill/docker-postgres-backup-local](https://github.com/prodrigestivill/docker-postgres-backup-local) for backing up [Postgres](https://www.postgresql.org/) (no matter if it's installed via [com.devture.ansible.role.postgres](https://github.com/devture/com.devture.ansible.role.postgres/) or not).
 
 The `postgres-backup` service is installed to run as a [Docker](https://www.docker.com/) container wrapped in a systemd service.
